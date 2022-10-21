@@ -1,0 +1,19 @@
+.content{
+    background-color: #4E2096;
+    padding: 3% 0%;
+}
+.formulario{
+    width: 30%;
+    padding: 2% 2%;
+    background-color: #fff;
+    color: #4E2096;
+    border-radius: 5%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+}
+

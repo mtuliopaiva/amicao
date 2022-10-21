@@ -1,0 +1,14 @@
+.card{
+    margin: 3% 5%;
+    background-color: #4E2096;
+    color:#fff;
+    width: 15%;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 1px 1px 5px #4E2096;
+}
+.card img{
+    padding-top: 5%;
+    width: 50%;
+    border-radius: 50%;
+}

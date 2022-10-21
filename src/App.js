@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Forms from "./components/Forms/Forms";
+import './index.css'
+import Cadastrados from "./components/Cadastrados/Cadastrados";
+import { useState} from 'react'
+
 
 function App() {
+
+  const [animais, setAnimais] = useState([])
+
+  const animalAdicionado = (animal) => {
+    setAnimais([...animais,animal]);
+    console.log(animais)
+    
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Forms animalCadastrado={animal => animalAdicionado(animal)}/>
+      <Cadastrados nome="Charles"/>
     </div>
   );
 }
