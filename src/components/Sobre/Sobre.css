@@ -1,0 +1,36 @@
+.sobre{
+    background-color:  #DFE3E5;
+    padding-top: 1%;
+}
+.sobre h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #4E2096;
+}
+.sobre p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.sobre__conteudo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0%;
+}
+.sobre__conteudo--texto{
+    width: 30%;
+}
+.sobre__conteudo--texto h3{
+    color: #4E2096;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.sobre__conteudo--texto p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.sobre__conteudo--imagem img{
+    max-width: 100%;
+    border-radius: 3%;
+    box-shadow: 0 2px 10px 2px #00000010;
+}

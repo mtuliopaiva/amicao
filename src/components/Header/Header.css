@@ -3,5 +3,23 @@ header{
     text-align: center;
 }
 header img{
-    width: 25%;
+    width: 20%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #4E2096;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #EA534A;
+    transition: 0.5s ease-in-out;
 }

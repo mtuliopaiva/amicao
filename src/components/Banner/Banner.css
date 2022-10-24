@@ -1,0 +1,10 @@
+.banner{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: #DFE3E5;
+}
+.banner img{
+    width: 100%;
+    max-width: 100%;
+    background-color: #000;
+}

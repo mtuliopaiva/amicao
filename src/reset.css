@@ -1,15 +1,12 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: Roboto, sans-serif;
 }
-/*RESET*/
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0; /*Espaço externo*/
     padding: 0; /*Espaço interno*/
 }
+
 ul, li {
     padding: 0;
 }
-.container{
-    margin: 0 5%;
-}
-

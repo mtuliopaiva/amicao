@@ -1,8 +1,13 @@
+import "./reset.css"
+import "./normalize.css"
 import Header from "./components/Header/Header";
 import Forms from "./components/Forms/Forms";
 import './index.css'
 import Cadastrados from "./components/Cadastrados/Cadastrados";
 import { useState} from 'react'
+import Banner from "./components/Banner/Banner";
+import Sobre from "./components/Sobre/Sobre";
+import QueroAjudar from "./components/QueroAjudar/QueroAjudar";
 
 
 function App() {
@@ -11,15 +16,18 @@ function App() {
 
   const animalAdicionado = (animal) => {
     setAnimais([...animais,animal]);
-    console.log(animais)
-    
+    console.log(animal.nome)
   }
 
   return (
     <div className="App">
       <Header />
+      <Banner />
+      <Sobre />
+      <QueroAjudar />
       <Forms animalCadastrado={animal => animalAdicionado(animal)}/>
-      <Cadastrados nome="Charles"/>
+      <Cadastrados animais={animais}/>
+
     </div>
   );
 }

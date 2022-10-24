@@ -8,15 +8,18 @@ const Cadastrados = (props) => {
 
     return(
         <div>
-            <h2>Animais cadastrados para adoção:</h2>
-            <div className='animais__cadastrados'>                   
-                <Animal 
-                    nome={props.nome}
-                    raca="Pug"
-                    idade="5"
-                    cor="Preta"
-                    imagem="./imagens/charles_pug.jpg"
-                    />
+            
+            <div className='animais__cadastrados'>  
+            {props.animais.map(animal => 
+                <Animal key={animal.nome}
+                    nome={animal.nome}
+                    raca={animal.raca}
+                    idade={animal.idade}
+                    cor={animal.cor}
+                    imagem={animal.imagem}
+                    
+            />)}               
+                
                 </div>
         </div>
 
