@@ -19,7 +19,7 @@ const Sobre = () => {
                                 para combinar os detalhes.</p>
                     </div>
                     <div className='sobre__conteudo--imagem'>
-                        <img src='./imagens/Sobre.jpg'></img>
+                        <img src='./imagens/sobre.jpg' alt='A imagem descreve um homem com um cachorro'></img>
                     </div>
                 </div>
             </div>

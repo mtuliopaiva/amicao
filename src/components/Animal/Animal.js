@@ -14,7 +14,7 @@ const Animal = (props) => {
 
     return (
         <div className='card'>
-            <img src={props.imagem}></img>
+            <img src={props.imagem} alt={props.nome}></img>
             <h4>Nome:{props.nome}</h4>
             <p>Raça: {props.raca}</p>
             <p>Idade: {props.idade} anos</p>
