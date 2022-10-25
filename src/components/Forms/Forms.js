@@ -22,6 +22,12 @@ const Forms = (props) => {
             idade,
             cor
         })
+        setNome('');
+        setImagem('');
+        setRaca('');
+        setIdade('');
+        setCor('');
+        
 
     }
 

@@ -44,5 +44,8 @@
     .sobre__conteudo--texto{
         width: 100%;
     }
+    .sobre__conteudo--imagem {
+        margin: 0 auto;
+    }
 
 }
