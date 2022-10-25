@@ -13,8 +13,8 @@ const Sobre = () => {
                     <div className='sobre__conteudo--texto'>
                             <h3>Como funciona?</h3>
                             <p>1 - ONGs ou protetores realizam o seu cadastro gratuitamente e já podem publicar os 
-                                animais com características e personalidades</p>
-                            <p>2 - Pessoas que estão interessadas em ter um novo Pet buscam no site um que tenha a ver com o perfil dele</p>
+                                animais com suas características e personalidades.</p>
+                            <p>2 - Pessoas que estão interessadas em ter um novo Pet buscam no site um que tenha a ver com o perfil dele.</p>
                             <p>3 - Quando encontrar o bichinho especial, clique em "quero adotar!" e pronto, a ONG ou protetor irá entrar em contato
                                 para combinar os detalhes.</p>
                     </div>

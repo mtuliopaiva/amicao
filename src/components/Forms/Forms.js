@@ -29,7 +29,7 @@ const Forms = (props) => {
         <div className='content'>
             <div className='formulario'>
 
-                <h3>Cadastre o AmiCão para doação:</h3>
+                <h3>Divulgue para adoção:</h3>
                 <form>
                     <CampoTexto
                         label="Nome"

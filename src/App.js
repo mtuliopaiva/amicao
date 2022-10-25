@@ -8,6 +8,7 @@ import { useState} from 'react'
 import Banner from "./components/Banner/Banner";
 import Sobre from "./components/Sobre/Sobre";
 import QueroAjudar from "./components/QueroAjudar/QueroAjudar";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <QueroAjudar />
       <Forms animalCadastrado={animal => animalAdicionado(animal)}/>
       <Cadastrados animais={animais}/>
+      <Footer />
 
     </div>
   );

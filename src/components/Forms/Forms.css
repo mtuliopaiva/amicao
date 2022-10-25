@@ -1,6 +1,8 @@
 .content{
-    background-color: #4E2096;
+    background-color: #DFE3E5;
+    /* background-color: #4E2096; */
     padding: 3% 0%;
+    box-shadow: 0 2px 10px 2px #00000010;
 }
 .formulario{
     width: 30%;
@@ -12,8 +14,16 @@
     margin: 0 auto;
     
 }
+.formulario h3{
+    margin: 3% 0;
+}
 .formulario form{
     display: flex;
     flex-direction: column;
+}
+@media screen and (max-width: 768px){
+    .formulario{
+        width: 80%;
+    }
 }
 
